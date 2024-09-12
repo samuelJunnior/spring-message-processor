@@ -32,7 +32,7 @@
 
 Caso tenho sua instância RabbitMQ já configurada, apenas ajustar as configurações de `spring.rabbitmq` no arquivo [`application.yaml`](/src/main/resources/application.yaml)
 
-Caso não tenha um broker Rabbit em sua máquina, execute o arquivo `docker-compose.yml` dentro do diretório [deployments](/deployments/docker-compose.yml) com o comando:
+Caso não tenha um broker Rabbit em sua máquina, execute o arquivo `docker-compose.yml` dentro do diretório [deployments](/deployment/docker-compose.yml) com o comando:
 ```bash
 docker compose up -d
 ```
