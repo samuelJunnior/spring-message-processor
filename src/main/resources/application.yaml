@@ -1,0 +1,25 @@
+server:
+  port: 8080
+
+spring:
+  application:
+    name: @project.artifactId@
+
+  rabbitmq:
+    host: localhost
+    port: 5672
+    username: guest
+    password: guest
+#    username: tutorialadm
+#    password: admin
+#    virtual-host: tutorial
+
+rabbit:
+  exchanges:
+    direct:
+      name: amq.direct
+    fanout:
+      name: amq.fanout
+  ttl: 10000
+  retries: 3
+  back-off-period: 1000
