@@ -3,6 +3,7 @@
 >Uma API REST em Spring Boot que implementa um fluxo de mensageria utilizando RabbitMQ.
 
 **Sumário**
+- [Flow](#-flow)
 - [Tecnologias](#-tecnologias)
     - [Ambiente](#ambiente)
     - [Desenvolvimento](#desenvolvimento)
@@ -10,6 +11,10 @@
 - [Build e Execução local](#-build-e-execuo-local)
 - [Usando a API](#-usando-a-api)
 - [Colaboradores](#-colaboradores)
+
+## 🔁 Flow
+![Spring Messsage Processor - Flow](src/main/resources/static/images/spring-message-processor.svg)
+
 
 ## 💻 Tecnologias
 
